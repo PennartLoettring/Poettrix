@@ -1,7 +1,7 @@
-NAME="Manjaro Linux"
-ID=manjaro
-PRETTY_NAME="Manjaro Linux"
-ANSI_COLOR="1;32"
-HOME_URL="http://www.manjaro.org/"
-SUPPORT_URL="http://www.manjaro.org/"
-BUG_REPORT_URL="http://bugs.manjaro.org/"
+NAME="Poettrix Lennux"
+ID=poettrix
+PRETTY_NAME="Poettrix Lennux"
+ANSI_COLOR="3;32"
+HOME_URL="http://reddit.com/r/Poettrix"
+SUPPORT_URL="http://github.com/PennartLoettring/Poettrix"
+BUG_REPORT_URL="http://github.com/PennartLoettring/Poettrix/issues"
