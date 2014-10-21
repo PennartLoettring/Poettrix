@@ -1,0 +1,8 @@
+%FILES%
+usr/
+usr/lib32/
+usr/lib32/libwrap.a
+usr/lib32/libwrap.so
+usr/lib32/libwrap.so.0
+usr/lib32/libwrap.so.0.7.6
+

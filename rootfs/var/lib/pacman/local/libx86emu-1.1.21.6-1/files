@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/include/
+usr/include/x86emu.h
+usr/lib/
+usr/lib/libx86emu.so
+usr/lib/libx86emu.so.1
+usr/lib/libx86emu.so.1.1
+usr/share/
+usr/share/licenses/
+usr/share/licenses/libx86emu/
+usr/share/licenses/libx86emu/LICENSE
+

@@ -1,0 +1,241 @@
+#!/bin/bash
+
+
+# Read only variables
+declare -r KBCONFIG="/etc/keyboard.conf"
+declare -r CACHEDIR="/var/lib/keyboardctl"
+declare -r CACHEDMAP="$CACHEDIR/kb.map"
+declare -r CACHEDMAPSTAT="$CACHEDIR/mapstat"
+declare -r XORGCONFD="/etc/X11/xorg.conf.d"
+declare -r XORGKBLAYOUT="$XORGCONFD/20-keyboard.conf"
+
+# Default config values
+XKBMODEL="pc105"
+XKBLAYOUT="us"
+XKBVARIANT=""
+CHARMAP="guess"
+
+# Default system checks
+if [ ! -e "$KBCONFIG" ]; then
+	echo "error: default configuration file '$KBCONFIG' does not exist! Abording..." 1>&2
+	exit 1
+elif [ ! -d "$CACHEDIR" ]; then
+	mkdir -p "$CACHEDIR"
+fi
+
+# Include default config
+. "$KBCONFIG"
+
+# Guess charmap if required
+if [ "$CHARMAP" == "guess" ] || [ "$CHARMAP" == "" ]; then
+	if which locale >/dev/null; then
+		CHARMAP=`locale charmap`
+	fi
+fi
+CHARMAP=${CHARMAP:-UTF-8}
+
+
+
+
+check_root()
+{
+	if [[ $EUID -ne 0 ]]; then
+		echo "error: you cannot perform this operation unless you are root." 1>&2
+		exit 1
+	fi
+}
+
+
+
+set_layout()
+{
+	# Remove all empty spaces
+	local kbdmodel="$(echo "$1" | sed 's/ //g')"
+	local kbdlayout="$(echo "$2" | sed 's/ //g')"
+	local kbdvariant="$(echo "$3" | sed 's/ //g')"
+
+	# Save config
+	echo "# KEYBOARD CONFIGURATION FILE" > "$KBCONFIG"
+	echo "" >> "$KBCONFIG"
+	echo "XKBMODEL=$kbdmodel" >> "$KBCONFIG"
+	echo "XKBLAYOUT=$kbdlayout" >> "$KBCONFIG"
+	echo "XKBVARIANT=$kbdvariant" >> "$KBCONFIG"
+	echo "" >> "$KBCONFIG"
+	echo "CHARMAP=guess" >> "$KBCONFIG"
+
+	echo ":: saved settings"
+	echo "  XKBMODEL:   $kbdmodel"
+	echo "  XKBLAYOUT:  $kbdlayout"
+	echo "  XKBVARIANT: $kbdvariant"
+}
+
+
+
+create_layout()
+{
+	# Additional options
+	local add_options=""
+	if [ "$CHARMAP" != UTF-8 ]; then
+		add_options="-charmap $CHARMAP"
+	fi
+
+
+	# Update stat file
+	echo "## Keyboard map state file" > "$CACHEDMAPSTAT"
+	echo "" >> "$CACHEDMAPSTAT"
+	echo "MAPMODEL=\"$XKBMODEL\"" >> "$CACHEDMAPSTAT"
+	echo "MAPLAYOUT=\"$XKBLAYOUT\"" >> "$CACHEDMAPSTAT"
+	echo "MAPVARIANT=\"$XKBVARIANT\"" >> "$CACHEDMAPSTAT"
+	echo "MAPCHARMAP=\"$CHARMAP\"" >> "$CACHEDMAPSTAT"
+	
+
+	# Create map
+	ckbcomp -compact -backspace "del" $add_options \
+		-model "$XKBMODEL" "$XKBLAYOUT" "$XKBVARIANT" > "$CACHEDMAP"
+	if [ $? -ne 0 ]; then
+		rm "$CACHEDMAPSTAT"
+		echo "error: failed to create keyboard map (ckbcomp). Abording..." 1>&2
+		exit 1
+	fi
+
+
+	# It might be, that Xorg isn't installed...
+	if [ ! -d "$XORGCONFD" ]; then
+		mkdir -p "$XORGCONFD"
+	fi
+
+
+	# Create X11 keyboard layout config
+	echo "# Keyboard layout - Don't modify! Use keyboardctl instead!" > "$XORGKBLAYOUT"
+	echo "" >> "$XORGKBLAYOUT"
+	echo "Section \"InputClass\"" >> "$XORGKBLAYOUT"
+	echo "    Identifier \"system-keyboard\"" >> "$XORGKBLAYOUT"
+	echo "    MatchIsKeyboard \"on\"" >> "$XORGKBLAYOUT"
+	echo "    Option \"XkbModel\" \"$XKBMODEL\"" >> "$XORGKBLAYOUT"
+	echo "    Option \"XkbLayout\" \"$XKBLAYOUT\"" >> "$XORGKBLAYOUT"
+	echo "    Option \"XkbVariant\" \"$XKBVARIANT\"" >> "$XORGKBLAYOUT"
+	echo "EndSection" >> "$XORGKBLAYOUT"
+}
+
+
+
+load_layout()
+{
+	# Setup unicode/non-unicode mode
+	if which kbd_mode >/dev/null; then
+		if [ "$CHARMAP" = UTF-8 ]; then
+		    kbd_mode -u
+		else
+		    kbd_mode -a
+		fi
+	else
+		echo "warning: kbd_mode is not accessible.  Unable to setup unicode/non-unicode keyboard mode." 1>&2
+	fi
+
+
+	# Check if cached map is valid
+	if [ ! -e "$CACHEDMAP" ] || [ ! -e "$CACHEDMAPSTAT" ] || [ ! -e "$XORGKBLAYOUT" ]; then
+		create_layout
+	else
+		. "$CACHEDMAPSTAT"
+
+		if [ "$MAPMODEL" != "$XKBMODEL" ] ||  [ "$MAPLAYOUT" != "$XKBLAYOUT" ] || [ "$MAPVARIANT" != "$XKBVARIANT" ] || [ "$MAPCHARMAP" != "$CHARMAP" ]; then
+			create_layout
+		fi
+	fi
+ 
+	
+	# Load map
+	loadkeys "$CACHEDMAP" >/dev/null
+	if [ $? -ne 0 ]; then
+		echo "error: loadkeys failed!" 1>&2
+		exit 1
+	fi	
+
+	# Only run setxkbmap if it exists in the $PATH directories and if X is running
+	if [ "$DISPLAY" ]; then
+		if which setxkbmap >/dev/null; then
+	 		setxkbmap -model "$XKBMODEL" -layout "$XKBLAYOUT" -variant "$XKBVARIANT" >/dev/null
+			if [ $? -ne 0 ]; then
+				echo "error: setxkbmap failed!" 1>&2
+				exit 1
+			fi
+		fi
+	fi
+}
+
+
+
+print_help()
+{
+	echo "${0##*/} [OPTION] [...]"
+	echo ""
+	echo " -h --help              show help"
+	echo " -s --setup             load console keyboard layout and set X11 layout"
+	echo " -l --set-layout [Opt.:MODEL] [LAYOUT] [Opt.:VARIANT] set keyboard layout"
+	echo ""
+}
+
+
+PARAM=$#
+
+if [ "${PARAM}" -lt 1 ]; then
+	print_help
+	exit 0
+fi
+
+for (( I=1; $I <= $PARAM; I++ ))
+do
+	case "$1" in
+		-h|--help)
+			print_help
+			exit 0
+			;;
+		-s|--setup)
+			check_root
+			load_layout
+			exit 0
+			;;
+		-l|--set-layout)
+			ARGS=$[$PARAM - $I]
+			check_root
+
+			if [ $ARGS -eq 3 ]; then
+				XKBMODEL="$2"
+				XKBLAYOUT="$3"
+				XKBVARIANT="$4"
+			elif [ $ARGS -eq 2 ]; then
+				XKBMODEL="pc105"
+				XKBLAYOUT="$2"
+				XKBVARIANT="$3"
+			elif [ $ARGS -eq 1 ]; then
+				XKBMODEL="pc105"
+				XKBLAYOUT="$2"
+				XKBVARIANT=""
+			else
+				echo "error: no or invalid arguments passed!" 1>&2
+				exit 1
+			fi
+
+			# Guess charmap
+			CHARMAP=""
+			if which locale >/dev/null; then
+				CHARMAP=`locale charmap`
+			fi
+			CHARMAP=${CHARMAP:-UTF-8}
+
+			set_layout "$XKBMODEL" "$XKBLAYOUT" "$XKBVARIANT"
+			load_layout
+			exit 0
+			;;
+		"") ;;
+		*)
+			echo "error: invalid argument: $1"
+			echo ""
+			print_help
+			exit 1
+			;;
+	esac
+
+	shift
+done

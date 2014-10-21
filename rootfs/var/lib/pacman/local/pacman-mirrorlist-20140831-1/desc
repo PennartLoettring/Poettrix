@@ -1,0 +1,43 @@
+%NAME%
+pacman-mirrorlist
+
+%VERSION%
+20140831-1
+
+%DESC%
+Manjaro Linux mirror list for use by pacman
+
+%URL%
+https://github.com/manjaro/pacman-mirrors.git
+
+%ARCH%
+any
+
+%BUILDDATE%
+1409473000
+
+%INSTALLDATE%
+1413922046
+
+%PACKAGER%
+Philip Mueller <philm|manjaro|org>
+
+%SIZE%
+57344
+
+%REASON%
+1
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+python
+
+%OPTDEPENDS%
+gtk3: for GTK UI
+python-gobject: for GTK UI
+

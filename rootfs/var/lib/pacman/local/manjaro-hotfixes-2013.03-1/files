@@ -1,0 +1,9 @@
+%FILES%
+etc/
+etc/dbus-1/
+etc/dbus-1/system.d/
+etc/dbus-1/system.d/org.freedesktop.NetworkManager.Manjaro.conf
+etc/polkit-1/
+etc/polkit-1/rules.d/
+etc/polkit-1/rules.d/99-manjaro.rules
+

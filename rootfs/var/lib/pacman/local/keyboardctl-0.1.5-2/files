@@ -1,0 +1,19 @@
+%FILES%
+etc/
+etc/keyboard.conf
+usr/
+usr/bin/
+usr/bin/ckbcomp
+usr/bin/kbctl
+usr/bin/keyboardctl
+usr/lib/
+usr/lib/systemd/
+usr/lib/systemd/system/
+usr/lib/systemd/system/keyboardctl.service
+var/
+var/lib/
+var/lib/keyboardctl/
+
+%BACKUP%
+etc/keyboard.conf	235b55e9d61d5dc3752f49da435738c4
+

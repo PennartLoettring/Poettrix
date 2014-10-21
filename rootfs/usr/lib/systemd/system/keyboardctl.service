@@ -1,0 +1,14 @@
+[Unit]
+Description=Setup keyboard layout
+Documentation=man:keyboardctl
+DefaultDependencies=no
+Conflicts=shutdown.target
+After=systemd-vconsole-setup.service
+Before=sysinit.target shutdown.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/keyboardctl --setup
+
+[Install]
+WantedBy=sysinit.target

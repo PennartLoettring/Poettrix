@@ -1,0 +1,45 @@
+# mhwd Driver Config
+
+NAME="video-nouveau"
+INFO="X.org nouveau video driver. Standard open source driver for nvidia graphic cards."
+VERSION="2014.10.03"
+FREEDRIVER="true"
+PRIORITY="2"
+
+CLASSIDS="0300"
+VENDORIDS="10de"
+DEVICEIDS="*"
+
+# Conflicts with other mhwd configs
+MHWDCONFLICTS="video-hybrid-intel-nouveau-bumblebee"
+
+# Dependencies
+DEPENDS="xf86-video-nouveau mesa-dri"
+DEPENDS_64="lib32-mesa-dri"
+
+
+XORGFILE="/etc/X11/mhwd.d/nouveau.conf"
+
+
+post_install()
+{
+	MHWD_HEADING "${XORGFILE}"
+	MHWD_ADD_DEVICE_SECTION_FOR_EACH_BUSID "nouveau" "${XORGFILE}" 10de
+	MHWD_ADD_DRI "${XORGFILE}"
+	MHWD_ADD_COMPOSITING "${XORGFILE}"
+	MHWD_ADD_BACKSPACE "${XORGFILE}"
+
+	mhwd-gpu --setgl mesa --setxorg "${XORGFILE}"
+}
+
+
+
+post_remove()
+{
+	if [ -e "${XORGFILE}" ]; then
+		rm "${XORGFILE}"
+	fi
+
+	mhwd-gpu --check
+}
+

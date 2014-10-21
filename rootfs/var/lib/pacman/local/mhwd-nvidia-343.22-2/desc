@@ -1,0 +1,36 @@
+%NAME%
+mhwd-nvidia
+
+%VERSION%
+343.22-2
+
+%DESC%
+MHWD module-ids for nvidia 343.22
+
+%URL%
+http://www.nvidia.com/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1411654027
+
+%INSTALLDATE%
+1413922058
+
+%PACKAGER%
+Philip Müller <philm|manjaro|org>
+
+%SIZE%
+26624
+
+%REASON%
+1
+
+%LICENSE%
+custom
+
+%VALIDATION%
+pgp
+

@@ -1,0 +1,36 @@
+%NAME%
+manjaro-hotfixes
+
+%VERSION%
+2013.03-1
+
+%DESC%
+Manjaro Linux Hotfixes
+
+%URL%
+http://www.manjaro.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1364160164
+
+%INSTALLDATE%
+1413921983
+
+%PACKAGER%
+Philip Müller <philm[at]manjaro[dot]org>
+
+%SIZE%
+32768
+
+%GROUPS%
+base
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+

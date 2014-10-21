@@ -1,0 +1,13 @@
+%FILES%
+usr/
+usr/bin/
+usr/bin/v86d
+usr/lib/
+usr/lib/initcpio/
+usr/lib/initcpio/hooks/
+usr/lib/initcpio/hooks/v86d
+usr/lib/initcpio/install/
+usr/lib/initcpio/install/v86d
+usr/lib/modprobe.d/
+usr/lib/modprobe.d/uvesafb.conf
+

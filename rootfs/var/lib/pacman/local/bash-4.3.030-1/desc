@@ -1,0 +1,46 @@
+%NAME%
+bash
+
+%VERSION%
+4.3.030-1
+
+%DESC%
+The GNU Bourne Again shell
+
+%URL%
+http://www.gnu.org/software/bash/bash.html
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1412575604
+
+%INSTALLDATE%
+1413921958
+
+%PACKAGER%
+Bartłomiej Piotrowski <bpiotrowski@archlinux.org>
+
+%SIZE%
+6476800
+
+%GROUPS%
+base
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+readline>=6.3
+glibc
+
+%OPTDEPENDS%
+bash-completion: for tab completion
+
+%PROVIDES%
+sh
+

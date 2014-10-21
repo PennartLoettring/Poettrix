@@ -1,0 +1,36 @@
+%NAME%
+manjaro-keyring
+
+%VERSION%
+20141001-1
+
+%DESC%
+Manjaro PGP keyring
+
+%URL%
+http:/manjarolinux.org
+
+%ARCH%
+any
+
+%BUILDDATE%
+1412183757
+
+%INSTALLDATE%
+1413922048
+
+%PACKAGER%
+Philip Müller <philm|manjaro|org>
+
+%SIZE%
+38912
+
+%REASON%
+1
+
+%LICENSE%
+GPL
+
+%VALIDATION%
+pgp
+

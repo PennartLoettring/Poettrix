@@ -1,0 +1,36 @@
+%NAME%
+kbproto
+
+%VERSION%
+1.0.6-2
+
+%DESC%
+X11 XKB extension wire protocol
+
+%URL%
+http://xorg.freedesktop.org/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1404157323
+
+%INSTALLDATE%
+1413922051
+
+%PACKAGER%
+Andreas Radke <andyrtr@archlinux.org>
+
+%SIZE%
+1091584
+
+%REASON%
+1
+
+%LICENSE%
+custom
+
+%VALIDATION%
+pgp
+

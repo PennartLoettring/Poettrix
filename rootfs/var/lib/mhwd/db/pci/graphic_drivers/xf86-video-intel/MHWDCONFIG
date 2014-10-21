@@ -1,0 +1,47 @@
+# mhwd Driver Config
+
+NAME="video-intel"
+INFO="X.org intel video driver. Standard open source driver for intel graphic cards."
+VERSION="2014.10.03"
+FREEDRIVER="true"
+PRIORITY="2"
+
+CLASSIDS="0300"
+VENDORIDS="8086"
+DEVICEIDS="*"
+BLACKLISTEDDEVICEIDS="0be1 8108"
+
+# Conflicts with other mhwd configs
+MHWDCONFLICTS="video-hybrid-intel-nvidia-bumblebee video-hybrid-intel-nouveau-bumblebee"
+
+# Dependencies
+DEPENDS="xf86-video-intel mesa-dri"
+DEPENDS_64="lib32-mesa-dri"
+
+
+XORGFILE="/etc/X11/mhwd.d/intel.conf"
+
+
+post_install()
+{
+	# Create intel xorg configuration with enabled sna acceleration method
+	MHWD_HEADING "${XORGFILE}"
+	MHWD_ADD_DEVICE_SECTION_FOR_EACH_BUSID "intel" "${XORGFILE}" 8086 "Option      \"AccelMethod\" \"sna\""
+	MHWD_ADD_DRI "${XORGFILE}"
+	MHWD_ADD_COMPOSITING "${XORGFILE}"
+	MHWD_ADD_BACKSPACE "${XORGFILE}"
+
+	mhwd-gpu --setgl mesa --setxorg "${XORGFILE}"
+}
+
+
+
+post_remove()
+{
+	if [ -e "${XORGFILE}" ]; then
+		rm "${XORGFILE}"
+	fi
+
+	mhwd-gpu --check
+}
+

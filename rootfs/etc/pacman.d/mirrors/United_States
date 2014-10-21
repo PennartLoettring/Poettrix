@@ -1,0 +1,11 @@
+##
+## Pacman Mirrorlist
+##
+
+[United_States]
+Server = http://mirror.dacentec.com/manjaro/$branch/$repo/$arch
+Server = http://www.gtlib.gatech.edu/pub/manjaro/$branch/$repo/$arch
+Server = http://mirror.jmu.edu/manjaro/$branch/$repo/$arch
+Server = http://mirror.solarvps.com/manjaro/$branch/$repo/$arch
+Server = http://mirror.nexcess.net/manjaro/$branch/$repo/$arch
+Server = http://vm1.sorch.info/manjaro/$branch/$repo/$arch

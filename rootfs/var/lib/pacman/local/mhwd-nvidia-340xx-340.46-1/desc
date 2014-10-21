@@ -1,0 +1,36 @@
+%NAME%
+mhwd-nvidia-340xx
+
+%VERSION%
+340.46-1
+
+%DESC%
+MHWD module-ids for nvidia 340.46
+
+%URL%
+http://www.nvidia.com/
+
+%ARCH%
+any
+
+%BUILDDATE%
+1412195655
+
+%INSTALLDATE%
+1413922058
+
+%PACKAGER%
+Philip Mueller <philm|manjaro|org>
+
+%SIZE%
+27648
+
+%REASON%
+1
+
+%LICENSE%
+custom
+
+%VALIDATION%
+pgp
+

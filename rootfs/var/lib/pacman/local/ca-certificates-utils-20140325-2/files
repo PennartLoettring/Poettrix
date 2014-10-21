@@ -1,0 +1,18 @@
+%FILES%
+etc/
+etc/ca-certificates/
+etc/ca-certificates/update.d/
+etc/ssl/
+etc/ssl/certs/
+usr/
+usr/bin/
+usr/bin/update-ca-certificates
+usr/share/
+usr/share/ca-certificates/
+usr/share/man/
+usr/share/man/man8/
+usr/share/man/man8/update-ca-certificates.8.gz
+
+%BACKUP%
+etc/ca-certificates.conf	(null)
+

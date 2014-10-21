@@ -1,0 +1,326 @@
+## Locale informations
+## short | language | territory | titel
+
+POSIX|||
+aa_DJ|aa|DJ|Afar language locale for Djibouti (Cadu/Laaqo Dialects).
+aa_ER|aa|ER|Afar language locale for Eritrea (Cadu/Laaqo Dialects).
+aa_ER@saaho|aa|ER|Afar language locale for Eritrea (Saaho Dialect).
+aa_ET|aa|ET|Afar language locale for Ethiopia (Cadu/Carra Dialects).
+af_ZA|Afrikaans|South Africa|Afrikaans locale for South Africa
+ak_GH|Akan|Ghana|Akan locale for Ghana
+am_ET|am|ET|Amharic language locale for Ethiopia.
+an_ES|Aragonese|Spain|Aragonese locale for Spain
+anp_IN|Angika|India|Angika language locale for India
+ar_AE|Arabic|United Arab Emirates|Arabic language locale for United Arab Emirates
+ar_BH|Arabic|Bahrain|Arabic language locale for Bahrain
+ar_DZ|Arabic|Algeria|Arabic language locale for Algeria
+ar_EG|Arabic|Egypt|Arabic language locale for Egypt
+ar_IN|Arabic|India|Arabic language locale for India
+ar_IQ|Arabic|Iraq|Arabic language locale for Iraq
+ar_JO|Arabic|Jordan|Arabic language locale for Jordan
+ar_KW|Arabic|Kuwait|Arabic language locale for Kuwait
+ar_LB|Arabic|Lebanon|Arabic language locale for Lebanon
+ar_LY|Arabic|Libyan Arab Jamahiriya|Arabic language locale for Libyan Arab Jamahiriya
+ar_MA|Arabic|Morocco|Arabic language locale for Morocco
+ar_OM|Arabic|Oman|Arabic language locale for Oman
+ar_QA|Arabic|Qatar|Arabic language locale for Qatar
+ar_SA|Arabic|Saudi Arabia|Arabic locale for Saudi Arabia
+ar_SD|Arabic|Sudan|Arabic language locale for Sudan
+ar_SS|Arabic|South Sudan|Arabic language locale for South Sudan
+ar_SY|Arabic|Syrian Arab Republic|Arabic language locale for Syrian Arab Republic
+ar_TN|Arabic|Tunisia|Arabic language locale for Tunisia
+ar_YE|Arabic|Yemen|Arabic language locale for Yemen
+as_IN|Assamese|India|Assamese language locale for India
+ast_ES|Asturian|Spain|Asturian locale for Spain
+ayc_PE|Aymara|Peru|Aymara (ayc) locale for Peru
+az_AZ|Azeri|Azerbaijan|Azeri language locale for Azerbaijan (latin)
+be_BY|Belarusian|Belarus|Belarusian locale for Belarus
+be_BY@latin|Belarusian|Belarus|Belarusian Latin-Script locale for Belarus
+bem_ZM|Bemba|Zambia|Bemba locale for Zambia
+ber_DZ|Amazigh|Algeria|Amazigh language locale for Algeria (latin)
+ber_MA|Amazigh|Morocco|Amazigh language locale for Morocco (tifinagh)
+bg_BG|Bulgarian|Bulgaria|Bulgarian locale for Bulgaria
+bho_IN|Bhojpuri|India|Bhojpuri language locale for India
+bn_BD|Bengali/Bangla|Bangladesh|Bengali/Bangla language locale for Bangladesh
+bn_IN|Bengali|India|Bengali language locale for India
+bo_CN|Tibetan|P.R. of China|Tibetan language locale for P.R. of China
+bo_IN|Tibetan|India|Tibetan language locale for India
+br_FR|Breton|France|Breton language locale for France
+br_FR@euro|Breton|France|Breton locale for France with Euro
+brx_IN|Bodo|India|Bodo language locale for India
+bs_BA|Bosnian|Bosnia and Herzegowina|Bosnian language locale for Bosnia and Herzegowina
+byn_ER|byn|ER|Blin language locale for Eritrea
+ca_AD|Catalan|Andorra|Catalan locale for Andorra
+ca_ES|Catalan|Spain|Catalan locale for Spain
+ca_ES@euro|Catalan|Spain|Catalan locale for Catalonia with Euro
+ca_FR|Catalan|France|Catalan locale for France
+ca_IT|Catalan|Italy (L'Alguer)|Catalan locale for Italy (L'Alguer)
+cmn_TW|Mandarin Chinese|Republic of China|Mandarin Chinese locale for the Republic of China
+crh_UA|Crimean Tatar|Ukraine|Crimean Tatar (Crimean Turkish) language locale for Ukraine
+cs_CZ|Czech|Czech Republic|Czech locale for the Czech Republic
+csb_PL|Kashubian|Poland|Kashubian locale for Poland
+cv_RU|Chuvash|Russia|Chuvash locale for Russia
+cy_GB|Welsh|Great Britain|Welsh language locale for Great Britain
+da_DK|Danish|Denmark|Danish locale for Denmark
+de_AT|German|Austria|German locale for Austria
+de_AT@euro|German|Austria|German locale for Austria with Euro
+de_BE|German|Belgium|German locale for Belgium
+de_BE@euro|German|Belgium|German locale for Belgium with Euro
+de_CH|German|Switzerland|German locale for Switzerland
+de_DE|German|Germany|German locale for Germany
+de_DE@euro|German|Germany|German locale for Germany with Euro
+de_LU|German|Luxemburg|German locale for Luxemburg
+de_LU@euro|German|Luxemburg|German locale for Luxemburg with Euro
+doi_IN|Dogri|India|Dogri language locale for India
+dv_MV|Divehi|Maldives|Dhivehi Language Locale for Maldives
+dz_BT|Dzongkha|Bhutan|Dzongkha language locale for Bhutan
+el_CY|Greek|Cyprus|Greek locale for Cyprus
+el_GR|Greek|Greece|Greek locale for Greece
+el_GR@euro|Greek|Greece|Greek locale for Greece with Euro
+en_AG|English|Antigua and Barbuda|English language locale for Antigua and Barbuda
+en_AU|English|Australia|English locale for Australia
+en_BW|English|Botswana|English locale for Botswana
+en_CA|English|Canada|English locale for Canada
+en_DK|English|Denmark|English locale for Denmark
+en_GB|English|Great Britain|English locale for Britain
+en_HK|English|Hong Kong|English locale for Hong Kong
+en_IE|English|Ireland|English locale for Ireland
+en_IE@euro|English|Ireland|English locale for Ireland with Euro
+en_IN|English|India|English language locale for India
+en_NG|English|Nigeria|English locale for Nigeria
+en_NZ|English|New Zealand|English locale for New Zealand
+en_PH|English|Philippines|English language locale for Philippines
+en_SG|English|Singapore|English language locale for Singapore
+en_US|English|USA|English locale for the USA
+en_ZA|English|South Africa|English locale for South Africa
+en_ZM|English|Zambia|English locale for Zambia
+en_ZW|English|Zimbabwe|English locale for Zimbabwe
+es_AR|Spanish|Argentina|Spanish locale for Argentina
+es_BO|Spanish|Bolivia|Spanish locale for Bolivia
+es_CL|Spanish|Chile|Spanish locale for Chile
+es_CO|Spanish|Colombia|Spanish locale for Colombia
+es_CR|Spanish|Costa Rica|Spanish locale for Costa Rica
+es_CU|Spanish|Cuba|Spanish locale for Cuba
+es_DO|Spanish|Dominican Republic|Spanish locale for Dominican Republic
+es_EC|Spanish|Ecuador|Spanish locale for Ecuador
+es_ES|Spanish|Spain|Spanish locale for Spain
+es_ES@euro|Spanish|Spain|Spanish locale for Spain with Euro
+es_GT|Spanish|Guatemala|Spanish locale for Guatemala
+es_HN|Spanish|Honduras|Spanish locale for Honduras
+es_MX|Spanish|Mexico|Spanish locale for Mexico
+es_NI|Spanish|Nicaragua|Spanish locale for Nicaragua
+es_PA|Spanish|Panama|Spanish locale for Panama
+es_PE|Spanish|Peru|Spanish locale for Peru
+es_PR|Spanish|Puerto Rico|Spanish locale for Puerto Rico
+es_PY|Spanish|Paraguay|Spanish locale for Paraguay
+es_SV|Spanish|El Salvador|Spanish locale for El Salvador
+es_US|Spanish|USA|Spanish locale for the USA
+es_UY|Spanish|Uruguay|Spanish locale for Uruguay
+es_VE|Spanish|Venezuela|Spanish locale for Venezuela
+et_EE|Estonian|Estonia|Estonian locale for Estonia
+eu_ES|Basque|Spain|Basque locale for Spain
+eu_ES@euro|Basque|Spain|Basque language locale for Spain with Euro
+fa_IR|Persian|Iran|Persian locale for Iran
+ff_SN|ff|Senegal|Fulah locale for Senegal
+fi_FI|Finnish|Finland|Finnish locale for Finland
+fi_FI@euro|Finnish|Finland|Finnish locale for Finland with Euro
+fil_PH|Filipino|Philippines|Filipino language locale for Philippines
+fo_FO|Faroese|Faroe Islands|Faroese locale for Faroe Islands
+fr_BE|French|Belgium|French locale for Belgium
+fr_BE@euro|French|Belgium|French locale for Belgium with Euro
+fr_CA|French|Canada|French locale for Canada
+fr_CH|French|Switzerland|French locale for Switzerland
+fr_FR|French|France|French locale for France
+fr_FR@euro|French|France|French locale for France with Euro
+fr_LU|French|Luxemburg|French locale for Luxemburg
+fr_LU@euro|French|Luxemburg|French locale for Luxemburg with Euro
+fur_IT|Furlan|Italy|Furlan locale for Italy
+fy_DE|fy|DE|Sater Frisian and North Frisian Locale for Germany
+fy_NL|Frisian|Netherlands|Frisian locale for the Netherlands
+ga_IE|Irish|Ireland|Irish locale for Ireland
+ga_IE@euro|Irish|Ireland|Irish locale for Ireland with Euro
+gd_GB|Scots Gaelic|Great Britain|Scots Gaelic language locale for Great Britain
+gez_ER|gez|ER|Ge'ez language locale for Eritrea.
+gez_ER@abegede|gez|ER|Ge'ez language locale for Eritrea With Abegede Collation.
+gez_ET|gez|ET|Ge'ez language locale for Ethiopia
+gez_ET@abegede|gez|ET|Ge'ez language locale for Ethiopia With Abegede Collation
+gl_ES|Galician|Spain|Galician locale for Spain
+gl_ES@euro|Galician|Spain|Galician locale for Spain with Euro
+gu_IN|Gujarati|India|Gujarati Language Locale For India
+gv_GB|Manx Gaelic|Britain|Manx Gaelic locale for Britain
+ha_NG|Hausa|Nigeria|Hausa locale for Nigeria
+hak_TW|Hakka Chinese|Republic of China|Hakka Chinese locale for the Republic of China
+he_IL|Hebrew|Israel|Hebrew locale for Israel
+hi_IN|Hindi|India|Hindi language locale for India
+hne_IN|Chhattisgarhi|India|Chhattisgarhi language locale for India
+hr_HR|Croatian|Croatia|Croatian locale for Croatia
+hsb_DE|Upper Sorbian|Germany|Upper Sorbian locale for Germany
+ht_HT|Kreyol|Haiti|Kreyol locale for Haiti
+hu_HU|Hungarian|Hungary|Hungarian locale for Hungary
+hy_AM|Armenian|Armenia|Armenian language locale for Armenia
+i18n|||
+ia_FR|Interlingua|France|Interlingua locale for France
+id_ID|Indonesian|Indonesia|Indonesian locale for Indonesia
+ig_NG|Igbo|Nigeria|Igbo locale for Nigeria
+ik_CA|Inupiaq|Canada|Inupiaq locale for Canada
+is_IS|Icelandic|Iceland|Icelandic locale for Iceland
+iso14651_t1|||
+iso14651_t1_common|||
+iso14651_t1_pinyin|||
+it_CH|Italian|Switzerland|Italian locale for Switzerland
+it_IT|Italian|Italy|Italian locale for Italy
+it_IT@euro|Italian|Italy|Italian locale for Italy with Euro
+iu_CA|Inuktitut|CA|Inuktitut language locale for Nunavut, Canada
+iw_IL|Hebrew|Israel|Hebrew locale for Israel
+ja_JP|Japanese|Japan|Japanese language locale for Japan
+ka_GE|Georgian|Georgia|Georgian language locale for Georgia
+kk_KZ|Kazakh|Kazakhstan|Kazakh locale for Kazakhstan
+kl_GL|Greenlandic|Greenland|Greenlandic locale for Greenland
+km_KH|Khmer|Cambodia|Khmer locale for Cambodia
+kn_IN|Kannada|India|Kannada language locale for India
+ko_KR|Korean|Republic of Korea|Korean locale for Republic of Korea
+kok_IN|Konkani|India|Konkani language locale for India
+ks_IN|Kashmiri|India|Kashmiri language locale for India
+ks_IN@devanagari|Kashmiri|India|Kashmiri(devanagari) language locale for India
+ku_TR|Kurdish|Turkey|Kurdish (latin) locale for Turkey
+kw_GB|Cornish|Britain|Cornish locale for Britain
+ky_KG|Kyrgyz|Kyrgyzstan|Kyrgyz Language Locale for Kyrgyzstan
+lb_LU|Luxembourgish|Luxembourg|Luxembourgish locale for Luxembourg
+lg_UG|Luganda|Uganda|Luganda locale for Uganda
+li_BE|li|BE|Limburgish Language Locale for Belgium
+li_NL|li|NL|Limburgish Language Locale for the Netherlands
+lij_IT|Ligurian|Italy|Ligurian locale for Italy
+lo_LA|Lao|Laos|Lao locale for Laos
+lt_LT|Lithuanian|Lithuania|Lithuanian locale for Lithuania
+lv_LV|Latvian|Latvia|Latvian locale for Latvia
+lzh_TW|Literary Chinese|Republic of China|Literary Chinese locale for the Republic of China
+mag_IN|Magahi|India|Magahi language locale for India
+mai_IN|Maithili|India|Maithili language locale for India
+mg_MG|Malagasy|Madagascar|Malagasy locale for Madagascar
+mhr_RU|Meadow Mari|Russia|Mari locale for Russia
+mi_NZ|Maori|New Zealand|Maori language locale for New Zealand
+mk_MK|Macedonian|Macedonia|Macedonian locale for Macedonia
+ml_IN|Malayalam|India|Malayalam language locale for India
+mn_MN|Mongolian|Mongolia|Mongolian locale for Mongolia
+mni_IN|Manipuri|India|Manipuri language locale for India
+mr_IN|Marathi|India|Marathi language locale for India
+ms_MY|Malay|Malaysia|Malay language locale for Malaysia
+mt_MT|Maltese|malta|Maltese language locale for Malta
+my_MM|Burmese|Myanmar|Burmese language locale for Myanmar
+nan_TW|Min Nan Chinese|Republic of China|Min Nan Chinese locale for the Republic of China
+nan_TW@latin|Minnan|Taiwan|Minnan language locale for Taiwan
+nb_NO|Norwegian, Bokm<U00E5>l|Norway|Norwegian (Bokmal) locale for Norway
+nds_DE|nds|DE|Low(lands) Saxon Language Locale for Germany
+nds_NL|nds|NL|Low(lands) Saxon Language Locale for the Netherlands
+ne_NP|Nepali|Nepal|Nepali language locale for Nepal
+nhn_MX|Central Nahuatl|Mexico|Central Nahuatl for Mexico
+niu_NU|Vagahau Niue (Niuean)|Niue|Niuean (Vagahau Niue) locale for Niue
+niu_NZ|Vagahau Niue (Niuean)|New Zealand|Niuean (Vagahau Niue) locale for New Zealand
+nl_AW|Dutch|Aruba|Dutch language locale for Aruba
+nl_BE|Dutch|Belgium|Dutch locale for Belgium
+nl_BE@euro|Dutch|Belgium|Dutch locale for Belgium with Euro
+nl_NL|Dutch|Netherlands|Dutch locale for the Netherlands
+nl_NL@euro|Dutch|Netherlands|Dutch locale for the Netherlands with Euro
+nn_NO|Norwegian, Nynorsk|Norway|Nynorsk language locale for Norway
+nr_ZA|Southern Ndebele|South Africa|Southern Ndebele locale for South Africa
+nso_ZA|Northern Sotho|South Africa|Northern Sotho locale for South Africa
+oc_FR|Occitan|France|Occitan Language Locale for France
+om_ET|om|ET|Oromo language locale for Ethiopia.
+om_KE|om|KE|Oromo language locale for Kenya.
+or_IN|Odia|India|Odia language locale for India
+os_RU|Ossetian|Russia|Ossetian locale for Russia
+pa_IN|Punjabi|India|Punjabi language locale for Indian Punjabi(Gurmukhi)
+pa_PK|Punjabi (Shahmukhi)|Pakistan|Punjabi (Shahmukhi) Language Locale for Pakistan
+pap_AN|pap|AN|Papiamento Language for the (Netherland) Antilles
+pap_AW|pap|AW|Papiamento Language for Aruba
+pap_CW|pap|CW|Papiamento language for Curaçao
+pl_PL|Polish|Poland|Polish locale for Poland
+ps_AF|||
+pt_BR|Portuguese|Brasil|Portuguese locale for Brasil
+pt_PT|Portuguese|Portugal|Portuguese locale for Portugal
+pt_PT@euro|Portuguese|Portugal|Portuguese locale for Portugal with Euro
+quz_PE|Quechua (Cusco-Collao)|Peru|Quechua (Cusco-Collao) locale for Peru
+ro_RO|Romanian|Romania|Romanian locale for Romania
+ru_RU|Russian|Russia|Russian locale for Russia
+ru_UA|Russian|Ukraine|Russian locale for Ukraine
+rw_RW|Kinyarwanda|Rwanda|Kinyarwanda language locale for Rwanda
+sa_IN|Sanskrit|India|Sanskrit language locale for India
+sat_IN|Santali|India|Santali language locale for India
+sc_IT|Sardinian|Italy|Sardinian locale for Italy
+sd_IN|Sindhi|India|Sindhi language locale for India
+sd_IN@devanagari|Sindhi|India|Sindhi language locale for India
+se_NO|Northern Saami|Norway|Northern Saami language locale for Norway
+shs_CA|Secwepemctsin|Canada|Secwepemctsin locale for Canada
+si_LK|Sinhala|Sri Lanka|Sinhala language locale for Sri Lanka
+sid_ET|sid|ET|Sidama language locale for Ethiopia.
+sk_SK|Slovak|Slovak|Slovak locale for Slovak
+sl_SI|Slovenian|Slovenia|Slovenian locale for Slovenia
+so_DJ|so|DJ|Somali language locale for Djibouti.
+so_ET|so|ET|Somali language locale for Ethiopia
+so_KE|so|KE|Somali language locale for Kenya
+so_SO|so|SO|Somali language locale for Somalia
+sq_AL|Albanian|Albania|Albanian language locale for Albania
+sq_MK|Albanian|Macedonia|Albanian language locale for Macedonia
+sr_ME|Serbian|Montenegro|Serbian locale for Montenegro
+sr_RS|Serbian|Serbia|Serbian locale for Serbia
+sr_RS@latin|Serbian|Serbia|Serbian Latin locale for Serbia
+ss_ZA|Swati|South Africa|Swati locale for South Africa
+st_ZA|Sotho|South Africa|Sotho locale for South Africa
+sv_FI|Swedish|Finland|Swedish locale for Finland
+sv_FI@euro|Swedish|Finland|Swedish locale for Finland with Euro
+sv_SE|Swedish|Sweden|Swedish locale for Sweden
+sw_KE|sw|Kenya|Swahili locale for Kenya
+sw_TZ|sw|Tanzania|Swahili locale for Tanzania
+szl_PL|Silesian|Poland|Silesian locale for Poland
+ta_IN|Tamil|India|Tamil language locale for India
+ta_LK|Tamil|Sri Lanka|Tamil language locale for Sri Lanka
+te_IN|Telugu|India|Telugu language locale for India
+tg_TJ|Tajik|Tajikistan|Tajik language locale for Tajikistan
+th_TH|Thai|Thailand|Thai locale for Thailand
+the_NP|Chitwania Tharu|Nepal|Tharu language locale for Nepal
+ti_ER|ti|ER|Tigrigna language locale for Eritrea.
+ti_ET|ti|ET|Tigrigna language locale for Ethiopia.
+tig_ER|tig|ER|Tigre language locale for Eritrea
+tk_TM|Turkmen|Turkmenistan|Turkmen locale for Turkmenistan
+tl_PH|Tagalog|Philippines|Tagalog language locale for Philippines
+tn_ZA|Tswana|South Africa|Tswana locale for South Africa
+tr_CY|Turkish|Cyprus|Turkish language locale for Cyprus
+tr_TR|Turkish|Turkey|Turkish locale for Turkey
+translit_circle|||
+translit_cjk_compat|||
+translit_cjk_variants|||
+translit_combining|||
+translit_compat|||
+translit_font|||
+translit_fraction|||
+translit_hangul|||
+translit_narrow|||
+translit_neutral|||
+translit_small|||
+translit_wide|||
+ts_ZA|Tsonga|South Africa|Tsonga locale for South Africa
+tt_RU|Tatar|Russia|Tatar language locale for Russia
+tt_RU@iqtelif|Tatar|Tatarstan, Russian Federation|Tatar language locale using IQTElif alphabet; for Tatarstan, Russian Federation
+ug_CN|Uyghur|China|Uyghur locale for China
+uk_UA|uk|UA|Ukrainian Language Locale for Ukraine
+unm_US|Unami Delaware|USA|Unami Delaware locale for the USA
+ur_IN|Urdu|India|Urdu language locale for India
+ur_PK|Urdu|Pakistan|Urdu Language Locale for Pakistan
+uz_UZ|Uzbek|Uzbekistan|Uzbek (latin) locale for Uzbekistan
+uz_UZ@cyrillic|Uzbek|Uzbekistan|Uzbek (cyrillic) locale for Uzbekistan
+ve_ZA|Venda|South Africa|Venda locale for South Africa
+vi_VN|Vietnamese|Vietnam|Vietnamese language locale for Vietnam
+wa_BE|Walloon|Belgium|Walloon Language Locale for Belgium
+wa_BE@euro|Walloon|Belgium|Walloon locale for Belgium with Euro
+wae_CH|Walser|Switzerland|Walser locale for Switzerland
+wal_ET|wal|ET|Walaita language locale for Ethiopia.
+wo_SN|Wolof|Senegal|Wolof locale for Senegal
+xh_ZA|Xhosa|South Africa|Xhosa locale for South Africa
+yi_US|Yiddish|USA|Yiddish Language locale for the USA
+yo_NG|Yoruba|Nigeria|Yoruba locale for Nigeria
+yue_HK|Yue Chinese|Hong Kong|Yue Chinese (Cantonese) language locale for Hong Kong
+zh_CN|Chinese|P.R. of China|Chinese locale for Peoples Republic of China
+zh_HK|Chinese|Hong Kong|Chinese language locale for Hong Kong
+zh_SG|Chinese|Singapore|Chinese language locale for Singapore
+zh_TW|Chinese|Taiwan R.O.C.|Chinese locale for Taiwan R.O.C.
+zu_ZA|Zulu|South Africa|Zulu locale for South Africa

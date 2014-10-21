@@ -1,0 +1,42 @@
+%NAME%
+llvm-libs
+
+%VERSION%
+3.5.0-2.1
+
+%DESC%
+Low Level Virtual Machine (runtime library)
+
+%URL%
+http://llvm.org/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1410367220
+
+%INSTALLDATE%
+1413922056
+
+%PACKAGER%
+Evangelos Foutras <evangelos@foutrelis.com>
+
+%SIZE%
+31129600
+
+%REASON%
+1
+
+%LICENSE%
+custom:University of Illinois/NCSA Open Source License
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+gcc-libs
+zlib
+libffi
+ncurses
+

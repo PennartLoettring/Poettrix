@@ -1,0 +1,15 @@
+%FILES%
+etc/
+etc/ca-certificates/
+etc/ca-certificates/conf.d/
+etc/ca-certificates/conf.d/cacert.conf
+usr/
+usr/share/
+usr/share/ca-certificates/
+usr/share/ca-certificates/cacert/
+usr/share/ca-certificates/cacert/CAcert.org_class3.crt
+usr/share/ca-certificates/cacert/CAcert.org_root.crt
+usr/share/licenses/
+usr/share/licenses/ca-certificates-cacert/
+usr/share/licenses/ca-certificates-cacert/LICENSE
+

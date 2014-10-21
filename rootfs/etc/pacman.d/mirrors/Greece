@@ -1,0 +1,6 @@
+##
+## Pacman Mirrorlist
+##
+
+[Greece]
+Server = http://ftp.cc.uoc.gr/mirrors/linux/manjaro/$branch/$repo/$arch

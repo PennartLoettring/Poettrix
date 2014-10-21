@@ -1,0 +1,311 @@
+[2014-10-21 21:15] [PACMAN] Running 'pacman -r Poettrix-rootfs/ -Sy --cachedir=Poettrix-rootfs//var/cache/pacman/pkg --noconfirm base'
+[2014-10-21 21:15] [PACMAN] synchronizing package lists
+[2014-10-21 22:05] [PACMAN] installed linux-api-headers (3.16.2-1)
+[2014-10-21 22:05] [PACMAN] installed tzdata (2014h-1)
+[2014-10-21 22:05] [PACMAN] installed iana-etc (2.30-4)
+[2014-10-21 22:05] [PACMAN] installed filesystem (2014.07-1)
+[2014-10-21 22:05] [PACMAN] installed glibc (2.20-2)
+[2014-10-21 22:05] [PACMAN] installed ncurses (5.9-6)
+[2014-10-21 22:05] [PACMAN] installed readline (6.3.006-1)
+[2014-10-21 22:05] [PACMAN] installed bash (4.3.030-1)
+[2014-10-21 22:05] [PACMAN] installed bzip2 (1.0.6-5)
+[2014-10-21 22:05] [PACMAN] installed zlib (1.2.8-3)
+[2014-10-21 22:05] [PACMAN] installed cracklib (2.9.1-1)
+[2014-10-21 22:05] [PACMAN] installed libutil-linux (2.25.1-1)
+[2014-10-21 22:05] [PACMAN] installed e2fsprogs (1.42.12-1)
+[2014-10-21 22:05] [PACMAN] installed gdbm (1.11-1)
+[2014-10-21 22:06] [PACMAN] installed gcc-libs (4.9.1-2)
+[2014-10-21 22:06] [PACMAN] installed db (5.3.28-1)
+[2014-10-21 22:06] [PACMAN] installed perl (5.20.1-1)
+[2014-10-21 22:06] [PACMAN] installed openssl (1.0.1.i-1)
+[2014-10-21 22:06] [PACMAN] installed libsasl (2.1.26-7)
+[2014-10-21 22:06] [PACMAN] installed libldap (2.4.39-1)
+[2014-10-21 22:06] [PACMAN] installed keyutils (1.5.9-1)
+[2014-10-21 22:06] [PACMAN] installed krb5 (1.12.2-1)
+[2014-10-21 22:06] [PACMAN] installed libtirpc (0.2.5-1)
+[2014-10-21 22:06] [PACMAN] installed pambase (20130928-1)
+[2014-10-21 22:06] [PACMAN] installed pam (1.1.8-5)
+[2014-10-21 22:06] [PACMAN] installed attr (2.4.47-1)
+[2014-10-21 22:06] [PACMAN] installed acl (2.2.52-2)
+[2014-10-21 22:06] [PACMAN] installed gmp (6.0.0-1)
+[2014-10-21 22:06] [PACMAN] installed libcap (2.24-1)
+[2014-10-21 22:06] [PACMAN] installed coreutils (8.23-1)
+[2014-10-21 22:06] [PACMAN] installed libdbus (1.8.8-1)
+[2014-10-21 22:06] [PACMAN] installed expat (2.1.0-3)
+[2014-10-21 22:06] [PACMAN] installed dbus (1.8.8-1)
+[2014-10-21 22:06] [PACMAN] installed pcre (8.35-1)
+[2014-10-21 22:06] [PACMAN] installed libffi (3.1-2)
+[2014-10-21 22:06] [PACMAN] installed glib2 (2.40.0-2)
+[2014-10-21 22:06] [PACMAN] installed kbd (2.0.2-1)
+[2014-10-21 22:06] [PACMAN] installed kmod (18-1)
+[2014-10-21 22:06] [PACMAN] installed hwids (20140602-1)
+[2014-10-21 22:06] [PACMAN] installed libgpg-error (1.16-1)
+[2014-10-21 22:06] [PACMAN] installed libgcrypt (1.6.2-1)
+[2014-10-21 22:06] [PACMAN] installed xz (5.0.7-1)
+[2014-10-21 22:06] [PACMAN] installed libsystemd (216-3)
+[2014-10-21 22:06] [PACMAN] installed libseccomp (2.1.1-1)
+[2014-10-21 22:06] [PACMAN] installed shadow (4.2.1-1)
+[2014-10-21 22:06] [PACMAN] installed util-linux (2.25.1-1)
+[2014-10-21 22:06] [ALPM-SCRIPTLET] Created symlink from /etc/systemd/system/getty.target.wants/getty@tty1.service to /usr/lib/systemd/system/getty@.service.
+[2014-10-21 22:06] [ALPM-SCRIPTLET] :: Append 'init=/usr/lib/systemd/systemd' to your kernel command line in your
+[2014-10-21 22:06] [ALPM-SCRIPTLET]    bootloader to replace sysvinit with systemd, or install systemd-sysvcompat
+[2014-10-21 22:06] [PACMAN] installed systemd (216-3)
+[2014-10-21 22:06] [PACMAN] installed device-mapper (2.02.111-1)
+[2014-10-21 22:06] [PACMAN] installed popt (1.16-7)
+[2014-10-21 22:06] [PACMAN] installed cryptsetup (1.6.6-1)
+[2014-10-21 22:06] [PACMAN] installed dhcpcd (6.4.7-1)
+[2014-10-21 22:06] [PACMAN] installed diffutils (3.3-2)
+[2014-10-21 22:06] [PACMAN] installed file (5.19-1)
+[2014-10-21 22:06] [PACMAN] installed findutils (4.4.2-6)
+[2014-10-21 22:06] [PACMAN] installed mpfr (3.1.2.p10-1)
+[2014-10-21 22:06] [PACMAN] installed gawk (4.1.1-1)
+[2014-10-21 22:06] [PACMAN] installed libunistring (0.9.4-1)
+[2014-10-21 22:06] [PACMAN] installed gettext (0.19.2-2)
+[2014-10-21 22:06] [PACMAN] installed grep (2.20-1)
+[2014-10-21 22:06] [PACMAN] installed less (468-1)
+[2014-10-21 22:06] [PACMAN] installed gzip (1.6-1)
+[2014-10-21 22:06] [PACMAN] installed inetutils (1.9.2-2)
+[2014-10-21 22:06] [PACMAN] installed iptables (1.4.21-1)
+[2014-10-21 22:06] [PACMAN] installed iproute2 (3.15.0-1)
+[2014-10-21 22:06] [PACMAN] installed sysfsutils (2.1.0-9)
+[2014-10-21 22:06] [PACMAN] installed iputils (20121221-3)
+[2014-10-21 22:06] [PACMAN] installed jfsutils (1.1.15-4)
+[2014-10-21 22:06] [PACMAN] installed xkeyboard-config (2.13-1)
+[2014-10-21 22:06] [PACMAN] installed keyboardctl (0.1.5-2)
+[2014-10-21 22:06] [PACMAN] installed licenses (20140629-1)
+[2014-10-21 22:06] [PACMAN] installed locale-info (2.20-1)
+[2014-10-21 22:06] [PACMAN] installed logrotate (3.8.7-3)
+[2014-10-21 22:06] [PACMAN] installed libaio (0.3.109-7)
+[2014-10-21 22:06] [PACMAN] installed thin-provisioning-tools (0.4.1-1)
+[2014-10-21 22:06] [PACMAN] installed lvm2 (2.02.111-1)
+[2014-10-21 22:06] [PACMAN] installed groff (1.22.2-7)
+[2014-10-21 22:06] [PACMAN] installed libpipeline (1.3.1-1)
+[2014-10-21 22:06] [ALPM-SCRIPTLET] it's recommended to create an initial
+[2014-10-21 22:06] [ALPM-SCRIPTLET] database running as root:
+[2014-10-21 22:06] [ALPM-SCRIPTLET] "/usr/bin/mandb --quiet"
+[2014-10-21 22:06] [PACMAN] installed man-db (2.7.0.2-2)
+[2014-10-21 22:06] [PACMAN] installed man-pages (3.73-1)
+[2014-10-21 22:06] [PACMAN] installed manjaro-hotfixes (2013.03-1)
+[2014-10-21 22:06] [PACMAN] installed mkinitcpio-busybox (1.21.1-2)
+[2014-10-21 22:06] [PACMAN] installed lzo (2.08-3)
+[2014-10-21 22:06] [PACMAN] installed libarchive (3.1.2-8)
+[2014-10-21 22:06] [PACMAN] installed mkinitcpio (18-2)
+[2014-10-21 22:06] [PACMAN] installed pcmciautils (018-7)
+[2014-10-21 22:06] [PACMAN] installed linux-firmware (20140828.13eb208-1)
+[2014-10-21 22:06] [ALPM-SCRIPTLET] >>> Updating module dependencies. Please wait ...
+[2014-10-21 22:06] [ALPM-SCRIPTLET] >>> Generating initial ramdisk, using mkinitcpio.  Please wait...
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux310.preset: 'default'
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-310-x86_64 -c /etc/mkinitcpio.conf -g /boot/initramfs-310-x86_64.img
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> Starting build: 3.10.56-1-MANJARO
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [autodetect]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-310-x86_64.img
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> Image generation successful
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> Building image from preset: /etc/mkinitcpio.d/linux310.preset: 'fallback'
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> -k /boot/vmlinuz-310-x86_64 -c /etc/mkinitcpio.conf -g /boot/initramfs-310-x86_64-fallback.img -S autodetect
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> Starting build: 3.10.56-1-MANJARO
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [base]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [udev]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [modconf]
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [block]
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: bfa
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: aic94xx
+[2014-10-21 22:06] [ALPM-SCRIPTLET] ==> WARNING: Possibly missing firmware for module: smsmdtv
+[2014-10-21 22:06] [ALPM-SCRIPTLET]   -> Running build hook: [filesystems]
+[2014-10-21 22:07] [ALPM-SCRIPTLET]   -> Running build hook: [keyboard]
+[2014-10-21 22:07] [ALPM-SCRIPTLET]   -> Running build hook: [fsck]
+[2014-10-21 22:07] [ALPM-SCRIPTLET] ==> Generating module dependencies
+[2014-10-21 22:07] [ALPM-SCRIPTLET] ==> Creating gzip-compressed initcpio image: /boot/initramfs-310-x86_64-fallback.img
+[2014-10-21 22:07] [ALPM-SCRIPTLET] ==> Image generation successful
+[2014-10-21 22:07] [ALPM-SCRIPTLET] WARNING: It seems that grub is not installed - Your system might not boot.
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Add followed initramfs files to your bootloader config:
+[2014-10-21 22:07] [ALPM-SCRIPTLET] >> linux	/boot/vmlinuz-310-x86_64
+[2014-10-21 22:07] [ALPM-SCRIPTLET] >> initrd	/boot/initramfs-310-x86_64.img
+[2014-10-21 22:07] [PACMAN] installed linux310 (3.10.56-1)
+[2014-10-21 22:07] [PACMAN] installed run-parts (4.4-1)
+[2014-10-21 22:07] [PACMAN] installed sed (4.2.2-3)
+[2014-10-21 22:07] [PACMAN] installed ca-certificates-utils (20140325-2)
+[2014-10-21 22:07] [PACMAN] installed ca-certificates-mozilla (3.17.1-1)
+[2014-10-21 22:07] [PACMAN] installed ca-certificates-cacert (20140824-1)
+[2014-10-21 22:07] [PACMAN] installed ca-certificates (20140325-2)
+[2014-10-21 22:07] [PACMAN] installed libssh2 (1.4.3-2)
+[2014-10-21 22:07] [PACMAN] installed curl (7.38.0-2)
+[2014-10-21 22:07] [PACMAN] installed pth (2.0.7-5)
+[2014-10-21 22:07] [PACMAN] installed libksba (1.3.0-1)
+[2014-10-21 22:07] [PACMAN] installed libassuan (2.1.1-1)
+[2014-10-21 22:07] [PACMAN] installed pinentry (0.8.3-1)
+[2014-10-21 22:07] [PACMAN] installed dirmngr (1.1.1-3)
+[2014-10-21 22:07] [PACMAN] installed gnupg (2.0.26-1)
+[2014-10-21 22:07] [PACMAN] installed gpgme (1.5.1-1)
+[2014-10-21 22:07] [PACMAN] installed python (3.4.1-1)
+[2014-10-21 22:07] [ALPM-SCRIPTLET] :: Querying servers, this may take some time...
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Africa
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.mirror.ac.za/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.is.co.za/mirrors/manjaro.org/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Australia
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.ventraip.net.au/Manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.mirror.serversaustralia.com.au/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.mirror.uber.com.au/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Bangladesh
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirrors.ispros.com.bd/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Belgium
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.belnet.be/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.cu.be/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Brasil
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.fis.unb.br/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://www.las.ic.unicamp.br/pub/manjarolinux/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Chile
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.dcc.uchile.cl/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] China
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirrors.ustc.edu.cn/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.bjtu.edu.cn/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.cuhk.edu.hk/pub/Linux/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Colombia
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.edatel.net.co/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Costa_Rica
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirrors.ucr.ac.cr/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Denmark
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirrors.dotsrc.org/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] France
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjarolinux.polymorf.fr/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.finn.lu/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Germany
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.halifax.rwth-aachen.de/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.tu-chemnitz.de/pub/linux/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.rz.tu-bs.de/pub/mirror/manjaro.org/repos/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror3.layerjet.com/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.netzspielplatz.de/manjaro/packages/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.intercolo.net/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Greece
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.cc.uoc.gr/mirrors/linux/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] India
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.mirror.net.in/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Indonesia
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://kambing.ui.ac.id/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://kartolo.sby.datautama.net.id/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Ireland
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.heanet.ie/mirrors/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Italy
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.mirror.garr.it/mirrors/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Japan
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.tsukuba.wide.ad.jp/Linux/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.riken.jp/Linux/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Netherlands
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.nluug.nl/pub/os/Linux/distr/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Philippines
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.pregi.net/pub/Linux/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Portugal
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.dei.uc.pt/pub/linux/manjaro/repos/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Romania
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirrors.xservers.ro/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirrors.serverhost.ro/manjaro/packages/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.lug.ro/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.mirrors.linux.ro/repos/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Russia
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.yandex.ru/mirrors/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] South_Korea
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.premi.st/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Sweden
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.lysator.liu.se/pub/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.zetup.net/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Taiwan
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://free.nchc.org.tw/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://free2.nchc.org.tw/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.yzu.edu.tw/Linux/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Turkey
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://ftp.linux.org.tr/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] United_Kingdom
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://repo.manjaro.org.uk/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://www.mirrorservice.org/sites/repo.manjaro.org/repos/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.catn.com/pub/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://manjaro.mirrors.uk2.net/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] United_States
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.dacentec.com/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://www.gtlib.gatech.edu/pub/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.jmu.edu/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.solarvps.com/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://mirror.nexcess.net/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] -> ..... http://vm1.sorch.info/manjaro/stable/$repo/$arch-> Error!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] :: Generated and saved '/etc/pacman.d/mirrorlist' mirrorlist.
+[2014-10-21 22:07] [ALPM-SCRIPTLET] 
+[2014-10-21 22:07] [ALPM-SCRIPTLET] hint: use `pacman-mirrors` to generate and update your pacman mirrorlist.
+[2014-10-21 22:07] [PACMAN] installed pacman-mirrorlist (20140831-1)
+[2014-10-21 22:07] [PACMAN] installed archlinux-keyring (20140908-1)
+[2014-10-21 22:07] [PACMAN] installed manjaro-keyring (20141001-1)
+[2014-10-21 22:07] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m To import the data required by pacman for package verification run:[1;0m
+[2014-10-21 22:07] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m `pacman-key --init; pacman-key --populate archlinux manjaro`[1;0m
+[2014-10-21 22:07] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m See: https://www.archlinux.org/news/having-pacman-verify-packages[1;0m
+[2014-10-21 22:07] [PACMAN] installed pacman (4.1.2-7)
+[2014-10-21 22:07] [PACMAN] installed manjaro-system (20141002-1)
+[2014-10-21 22:07] [PACMAN] installed mdadm (3.3.1-2)
+[2014-10-21 22:07] [PACMAN] installed libx86emu (1.1.21.6-1)
+[2014-10-21 22:07] [PACMAN] installed hwinfo (21.5.1.1-1)
+[2014-10-21 22:07] [PACMAN] installed libpciaccess (0.13.2-2)
+[2014-10-21 22:07] [PACMAN] installed libdrm (2.4.58-1)
+[2014-10-21 22:07] [PACMAN] installed wayland (1.6.0-1)
+[2014-10-21 22:07] [PACMAN] installed xcb-proto (1.11-1)
+[2014-10-21 22:07] [PACMAN] installed xproto (7.0.26-1)
+[2014-10-21 22:07] [PACMAN] installed libxdmcp (1.1.1-2)
+[2014-10-21 22:07] [PACMAN] installed libxau (1.0.8-2)
+[2014-10-21 22:07] [PACMAN] installed libxcb (1.11-1)
+[2014-10-21 22:07] [PACMAN] installed kbproto (1.0.6-2)
+[2014-10-21 22:07] [PACMAN] installed libx11 (1.6.2-2)
+[2014-10-21 22:07] [PACMAN] installed xextproto (7.3.0-1)
+[2014-10-21 22:07] [PACMAN] installed libxext (1.3.3-1)
+[2014-10-21 22:07] [PACMAN] installed xf86vidmodeproto (2.3.1-3)
+[2014-10-21 22:07] [PACMAN] installed libxxf86vm (1.1.3-1)
+[2014-10-21 22:07] [PACMAN] installed fixesproto (5.0-3)
+[2014-10-21 22:07] [PACMAN] installed libxfixes (5.0.1-1)
+[2014-10-21 22:07] [PACMAN] installed damageproto (1.2.1-3)
+[2014-10-21 22:07] [PACMAN] installed libxdamage (1.1.4-2)
+[2014-10-21 22:07] [PACMAN] installed libxshmfence (1.1-1)
+[2014-10-21 22:07] [PACMAN] installed elfutils (0.159-1)
+[2014-10-21 22:07] [PACMAN] installed libomxil-bellagio (0.9.3-1)
+[2014-10-21 22:07] [PACMAN] installed llvm-libs (3.5.0-2.1)
+[2014-10-21 22:07] [PACMAN] installed libtxc_dxtn (1.0.1-5)
+[2014-10-21 22:07] [PACMAN] installed mesa-dri (10.3.0-3)
+[2014-10-21 22:07] [PACMAN] installed mesa (10.3.0-3)
+[2014-10-21 22:07] [PACMAN] installed mhwd-nvidia (343.22-2)
+[2014-10-21 22:07] [PACMAN] installed mhwd-nvidia-304xx (304.123-1)
+[2014-10-21 22:07] [PACMAN] installed mhwd-nvidia-340xx (340.46-1)
+[2014-10-21 22:07] [PACMAN] installed mhwd-catalyst (14.201-1)
+[2014-10-21 22:07] [PACMAN] installed mhwd-db (0.4.4-1)
+[2014-10-21 22:07] [PACMAN] installed v86d (0.1.10-5)
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Using default
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Default lib32 support: true
+[2014-10-21 22:07] [ALPM-SCRIPTLET] libGl and libglx symlinks are invalid!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] Falling back to default...
+[2014-10-21 22:07] [ALPM-SCRIPTLET] libGl: '/usr/lib/mesa/libGL.so.1.2.0'
+[2014-10-21 22:07] [ALPM-SCRIPTLET] libGLESv1: '/usr/lib/mesa/libGLESv1_CM.so.1.1.0'
+[2014-10-21 22:07] [ALPM-SCRIPTLET] libGLESv2: '/usr/lib/mesa/libGLESv2.so.2.0.0'
+[2014-10-21 22:07] [ALPM-SCRIPTLET] libEGL: '/usr/lib/mesa/libEGL.so.1.0.0'
+[2014-10-21 22:07] [ALPM-SCRIPTLET] warning: could not find '/usr/lib/xorg/modules/extensions/libglx.xorg'!
+[2014-10-21 22:07] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m use mhwd-gpu to set catalyst as default: 'mhwd-gpu --setgl catalyst'[1;0m
+[2014-10-21 22:07] [ALPM-SCRIPTLET] [1;1m[1;32m==>[1;0m[1;1m use mhwd-gpu to set mesa as default: 'mhwd-gpu --setgl mesa'[1;0m
+[2014-10-21 22:07] [PACMAN] installed mhwd (0.4.4-1)
+[2014-10-21 22:07] [PACMAN] installed nano (2.2.6-3)
+[2014-10-21 22:07] [PACMAN] installed openresolv (3.5.7-2)
+[2014-10-21 22:07] [PACMAN] installed netctl (1.9-1)
+[2014-10-21 22:07] [PACMAN] installed pciutils (3.2.1-1)
+[2014-10-21 22:07] [PACMAN] installed procps-ng (3.3.9-3)
+[2014-10-21 22:07] [PACMAN] installed psmisc (22.21-2)
+[2014-10-21 22:07] [PACMAN] installed reiserfsprogs (3.6.24-1)
+[2014-10-21 22:07] [PACMAN] installed s-nail (14.7.8-1)
+[2014-10-21 22:07] [PACMAN] installed systemd-sysvcompat (216-3)
+[2014-10-21 22:07] [PACMAN] installed tar (1.28-1)
+[2014-10-21 22:07] [PACMAN] installed texinfo (5.2-2)
+[2014-10-21 22:07] [PACMAN] installed libusb (1.0.19-1)
+[2014-10-21 22:07] [PACMAN] installed usbutils (007-1)
+[2014-10-21 22:07] [PACMAN] installed vi (1:050325-4)
+[2014-10-21 22:07] [PACMAN] installed which (2.20-7)
+[2014-10-21 22:07] [PACMAN] installed xfsprogs (3.2.1-1)
+[2014-10-21 22:07] [PACMAN] installed tcp_wrappers (7.6-16)
+[2014-10-21 22:07] [PACMAN] installed lib32-glibc (2.20-2)
+[2014-10-21 22:07] [PACMAN] installed lib32-tcp_wrappers (7.6-17)

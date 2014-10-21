@@ -1,0 +1,36 @@
+%NAME%
+mhwd-catalyst
+
+%VERSION%
+14.201-1
+
+%DESC%
+MHWD module-ids for catalyst 14.201
+
+%URL%
+http://www.amd.com
+
+%ARCH%
+any
+
+%BUILDDATE%
+1411037963
+
+%INSTALLDATE%
+1413922058
+
+%PACKAGER%
+Philip Müller <philm|manjaro|org>
+
+%SIZE%
+26624
+
+%REASON%
+1
+
+%LICENSE%
+custom
+
+%VALIDATION%
+pgp
+

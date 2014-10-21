@@ -1,0 +1,42 @@
+%NAME%
+vi
+
+%VERSION%
+1:050325-4
+
+%DESC%
+The original ex/vi text editor
+
+%URL%
+http://ex-vi.sourceforge.net/
+
+%ARCH%
+x86_64
+
+%BUILDDATE%
+1404050177
+
+%INSTALLDATE%
+1413922066
+
+%PACKAGER%
+Eric Belanger <eric@archlinux.org>
+
+%SIZE%
+346112
+
+%GROUPS%
+base
+
+%LICENSE%
+custom:ex
+
+%VALIDATION%
+pgp
+
+%DEPENDS%
+ncurses
+
+%OPTDEPENDS%
+heirloom-mailx: used by the preserve command for notification
+
