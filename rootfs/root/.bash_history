@@ -1,0 +1,9 @@
+ls
+exit
+bash
+exti
+exit
+exit
+bash
+exit
+exit
